@@ -1,3 +1,16 @@
+
+```
+                       .-') _ .-. .-')       .-') _               .-') _     ('-.    .-')      _   .-')    _ .-') _   
+                      ( OO ) )\  ( OO )     ( OO ) )             (  OO) )  _(  OO)  ( OO ).   ( '.( OO )_ ( (  OO) )  
+ ,--.      ,-.-') ,--./ ,--,' ,--. ,--. ,--./ ,--,'  .-'),-----. /     '._(,------.(_)---\_)   ,--.   ,--.)\     .'_  
+ |  |.-')  |  |OO)|   \ |  |\ |  .'   / |   \ |  |\ ( OO'  .-.  '|'--...__)|  .---'/    _ |    |   `.'   | ,`'--..._) 
+ |  | OO ) |  |  \|    \|  | )|      /, |    \|  | )/   |  | |  |'--.  .--'|  |    \  :` `.    |         | |  |  \  ' 
+ |  |`-' | |  |(_/|  .     |/ |     ' _)|  .     |/ \_) |  |\|  |   |  |  (|  '--.  '..`''.)   |  |'.'|  | |  |   ' | 
+(|  '---.',|  |_.'|  |\    |  |  .   \  |  |\    |    \ |  | |  |   |  |   |  .--' .-._)   \   |  |   |  | |  |   / : 
+ |      |(_|  |   |  | \   |  |  |\   \ |  | \   |     `'  '-'  '   |  |   |  `---.\       /.-.|  |   |  | |  '--'  / 
+ `------'  `--'   `--'  `--'  `--' '--' `--'  `--'       `-----'    `--'   `------' `-----' `-'`--'   `--' `-------'  
+ ```
+
 # linkNotes.md
 And Obsidian plugin (sub-plugin?) to create an internal CLI for creating and linking note contents
 
@@ -15,4 +28,4 @@ Commands are defined by a pattern. `;;...::` triggers any script
 - This requires you to make templates for `SCTASK`, `INC`, `CHG` and add them to obsidian accordingly (see Templates core plugin docs).
 
 `<note-link> --text [<heading>]`
-- Will expand to `[[<note-title>]]\n<note-text>`. If `<heading>` argument is given, `<note-text>` will only be the text under `<heading>` (`##` level)
+- Will expand to `<note-link>\n<blockquote(note-text)>`. If `<heading>` argument is given, `<note-text>` will only be the text under `<heading>` (`##` level)
